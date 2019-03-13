@@ -10,6 +10,12 @@
   background-color: #828282;
 }
 
+#info {
+  position: relative;
+  width: 75vw;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -40,8 +46,34 @@ a {
   background-color: #828282;
 }
 
-.pro_con {
+.tf {
+  display: block;
   position: relative;
-  width: 75vw;
-  margin: 0 auto;
+  left: 20vw;
+  top: 30px;
+}
+.tf ul{
+  display: inline-block;
+}
+.tf li{
+  list-style-type: none;
+  float: left;
+  clear: left;
+  padding: 5px;
+  margin: 10px;
+}
+
+.qs li{
+  font-size: 23px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.button {
+  font-size: 20px;
+  border: none;
+  decoration: none;
+  background-color: #e8e8e8;
+  padding: 10px 10px 5px 10px;
+  border-radius: 5px;
 }
